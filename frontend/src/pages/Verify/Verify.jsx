@@ -25,8 +25,9 @@ const Verify = () => {
         }
     }
 
-
+    
     useEffect(()=>{
+        console.log("Verify Component Loaded");
         verifyPayment();
     },[])
 
